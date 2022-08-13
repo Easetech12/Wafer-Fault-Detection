@@ -40,3 +40,10 @@
 2020-10-15/11:13:48		Bad files moved to archive!! Bad folder Deleted!!
 2020-10-15/11:13:48		Validation Operation completed!!
 2020-10-15/11:13:48		Extracting csv file from table
+2022-08-12/20:08:40		Start of Validation on files!!
+2022-08-12/20:08:44		Raw Data Validation Complete!!
+2022-08-12/20:08:44		Starting Data Transforamtion!!
+2022-08-12/20:08:48		DataTransformation Completed!!!
+2022-08-12/20:08:48		Creating Training_Database and tables on the basis of given schema!!!
+2022-08-12/20:08:48		Table creation Completed!!
+2022-08-12/20:08:48		Insertion of Data into Table started!!!!

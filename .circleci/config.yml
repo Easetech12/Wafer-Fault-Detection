@@ -59,8 +59,11 @@ jobs:
           command: |
             heroku container:login
             #heroku ps:scale web=1 -a $HEROKU_APP_NAME
-            heroku container:push web -a $HEROKU_APP_NAME
-            heroku container:release web -a $HEROKU_APP_NAME
+            heroku container:push web -a $HEROKU_APP_NAME  # our existing code will br pushed to heroku container
+            heroku container:release web -a $HEROKU_APP_NAME  # releasing our application
+            
+            # heroku container is same as docker container, where docker image can run
+            
 
 workflows:
   build-test-deploy:
